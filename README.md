@@ -1,8 +1,12 @@
-### About Escape
+### About Escape-Microservice
 
-### Future Iterations
+This Sinatra application is the backend to [Escape](https://github.com/mintona/escape_app). It currently consumes three external APIs, Google Places, Mountain Project, and Hiking Project. We customized all the endpoints to return information required for Escape's UI.
+
 
 ### Purpose Behind the Build
+
+We used Sinatra for its lightweight build.
+
 
 ### Installation
 
@@ -16,11 +20,7 @@
 
 `bundle install`
 
-`rake db:create`
-
-
-
-
+`bundle exec rake db:create`
 
 API Keys Necessary:
 
@@ -54,3 +54,23 @@ Testing and Development:
 * vcr
 * shoulda-matchers
 * database-cleaner-active-record
+
+
+### Endpoints
+
+These are the available endpoints escape-microservice hits, along with both the required and possible query parameters.
+
+The base url to query is: https://escape-app-api.herokuapp.com/api/v1/
+
+No API key is required.
+
+## Location
+
+`destination/:place`
+
+## Climbing
+
+## Hiking
+
+
+### Future Iterations
