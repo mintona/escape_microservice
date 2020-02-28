@@ -1,6 +1,7 @@
 ENV["RACK_ENV"] ||= "test"
 
 require 'bundler'
+
 Bundler.require(:default, :test)
 
 require 'rspec'
@@ -9,6 +10,9 @@ require './app/controllers/application_controller'
 require 'dotenv/load'
 require 'webmock/rspec'
 require 'database_cleaner/active_record'
+require 'simplecov'
+
+SimpleCov.start
 
 Capybara.app = ApplicationController
 
