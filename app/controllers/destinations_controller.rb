@@ -1,14 +1,13 @@
-require './app/models/destination'
+require './app/poros/destination'
 require './app/services/google_places_service'
 require './app/serializers/destination_serializer'
 
 class DestinationsController
   def self.search(place)
-    place_index_in_db = Destination.find_by(name: place)
-    if place_index_in_db
-      return DestinationSerializer.new(place_index_in_db)
-    else
+    if place
       retrieve_new_destination(place)
+    else
+      return no_place_found
     end
   end
 
@@ -19,7 +18,7 @@ class DestinationsController
     if google_places_response["candidates"].first.nil?
       return no_place_found
     else
-      new_place = Destination.add_destination(google_places_response)
+      new_place = Destination.new(google_places_response)
       DestinationSerializer.new(new_place)
     end
   end
