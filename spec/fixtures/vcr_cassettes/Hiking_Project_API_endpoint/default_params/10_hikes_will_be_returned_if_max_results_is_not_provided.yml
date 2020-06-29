@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.hikingproject.com/data/get-trails?key=200683561-7c95d710fabdc975bdd22885fc3c4615&lat=40.0274&lon=-105.2519&maxDistance=10&maxResults=&minStars=&sort=distance
+    uri: https://www.hikingproject.com/data/get-trails?key=200695530-1e29a141155e259db45d787cb7756a44&lat=40.0274&lon=-105.2519&maxDistance=10&maxResults=&minStars=&sort=distance
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 26 Feb 2020 22:42:10 GMT
+      - Mon, 16 Mar 2020 14:28:29 GMT
       Server:
       - Apache
       Access-Control-Allow-Origin:
@@ -29,11 +29,11 @@ http_interactions:
       Pragma:
       - no-cache
       X-Ap-Request-Id:
-      - 0d07df3b-d976-47f1-8162-c9b1da37704b
+      - ee6f7fce-58e0-4c29-a549-80e42da280c2
       Vary:
       - Accept-Encoding
       Content-Length:
-      - '2354'
+      - '2339'
       Content-Type:
       - application/json
     body:
@@ -46,7 +46,7 @@ http_interactions:
                     "name": "Dakota Ridge to Sanitas Valley Loop",
                     "type": "Hike",
                     "summary": "A technical ascent with a great view of Boulder, followed by a nice, open downhill pitch.",
-                    "difficulty": "greenBlue",
+                    "difficulty": "blue",
                     "stars": 4,
                     "starVotes": 8,
                     "location": "Boulder, Colorado",
@@ -71,9 +71,9 @@ http_interactions:
                     "name": "Mount Sanitas Loop",
                     "type": "Hike",
                     "summary": "Very popular and scenic loop right from the edge of town.",
-                    "difficulty": "blueBlack",
+                    "difficulty": "black",
                     "stars": 4.2,
-                    "starVotes": 106,
+                    "starVotes": 107,
                     "location": "Boulder, Colorado",
                     "url": "https:\/\/www.hikingproject.com\/trail\/7000000\/mount-sanitas-loop",
                     "imgSqSmall": "https:\/\/cdn-files.apstatic.com\/hike\/7039883_sqsmall_1555092747.jpg",
@@ -88,8 +88,8 @@ http_interactions:
                     "longitude": -105.2977,
                     "latitude": 40.0202,
                     "conditionStatus": "All Clear",
-                    "conditionDetails": "Dry",
-                    "conditionDate": "2020-01-26 11:10:58"
+                    "conditionDetails": "Some Mud",
+                    "conditionDate": "2020-03-10 13:41:47"
                 },
                 {
                     "id": 7004226,
@@ -121,7 +121,7 @@ http_interactions:
                     "name": "Indian Peaks Traverse (IPT)",
                     "type": "Hike",
                     "summary": "An epic, long distance trail connecting Boulder to Winter Park, and one that is in the process of substantial upgrades!",
-                    "difficulty": "blueBlack",
+                    "difficulty": "black",
                     "stars": 4.3,
                     "starVotes": 3,
                     "location": "Boulder, Colorado",
@@ -146,7 +146,7 @@ http_interactions:
                     "name": "Royal Arch Out and Back",
                     "type": "Hike",
                     "summary": "A classic Boulder hike to a natural arch with great views.",
-                    "difficulty": "blueBlack",
+                    "difficulty": "black",
                     "stars": 4.4,
                     "starVotes": 148,
                     "location": "Boulder, Colorado",
@@ -196,7 +196,7 @@ http_interactions:
                     "name": "Welcome to Chautauqua",
                     "type": "Hike",
                     "summary": "Perhaps the most popular (crowded!) hike in America. And for good reason.",
-                    "difficulty": "greenBlue",
+                    "difficulty": "blue",
                     "stars": 4.2,
                     "starVotes": 21,
                     "location": "Boulder, Colorado",
@@ -221,7 +221,7 @@ http_interactions:
                     "name": "Second-Third Flatiron Mesa Loop",
                     "type": "Hike",
                     "summary": "See the Flatirons up close and get a quick tour of the varied terrain accessible from the Chautauqua Trailhead.",
-                    "difficulty": "blueBlack",
+                    "difficulty": "black",
                     "stars": 4.5,
                     "starVotes": 2,
                     "location": "Boulder, Colorado",
@@ -246,7 +246,7 @@ http_interactions:
                     "name": "Green Mountain via Ranger\/Saddle Rock Loop",
                     "type": "Hike",
                     "summary": "A loop with a variety of terrain, a lot of climbing, and great views of Boulder.",
-                    "difficulty": "blueBlack",
+                    "difficulty": "black",
                     "stars": 4.5,
                     "starVotes": 78,
                     "location": "Boulder, Colorado",
@@ -271,7 +271,7 @@ http_interactions:
                     "name": "Flagstaff Summit Loop",
                     "type": "Hike",
                     "summary": "Experience awesome views and dense douglas-fir forest on this easy hike.",
-                    "difficulty": "greenBlue",
+                    "difficulty": "blue",
                     "stars": 4.3,
                     "starVotes": 16,
                     "location": "Boulder, Colorado",
@@ -295,5 +295,5 @@ http_interactions:
             "success": 1
         }
     http_version: null
-  recorded_at: Wed, 26 Feb 2020 22:42:07 GMT
+  recorded_at: Mon, 16 Mar 2020 14:28:29 GMT
 recorded_with: VCR 5.1.0

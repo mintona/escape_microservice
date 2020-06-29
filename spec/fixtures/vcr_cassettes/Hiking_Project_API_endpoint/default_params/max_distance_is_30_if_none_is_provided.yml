@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.hikingproject.com/data/get-trails?key=200683561-7c95d710fabdc975bdd22885fc3c4615&lat=40.0274&lon=-105.2519&maxDistance=&maxResults=2&minStars=&sort=distance
+    uri: https://www.hikingproject.com/data/get-trails?key=200695530-1e29a141155e259db45d787cb7756a44&lat=40.0274&lon=-105.2519&maxDistance=&maxResults=2&minStars=&sort=distance
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 26 Feb 2020 22:42:11 GMT
+      - Mon, 16 Mar 2020 14:28:29 GMT
       Server:
       - Apache
       Access-Control-Allow-Origin:
@@ -29,11 +29,11 @@ http_interactions:
       Pragma:
       - no-cache
       X-Ap-Request-Id:
-      - da07d51a-5ea5-4965-9119-f0db1be497ea
+      - fd2d2eb3-20bf-4849-947f-0154deef3280
       Vary:
       - Accept-Encoding
       Content-Length:
-      - '765'
+      - '760'
       Content-Type:
       - application/json
     body:
@@ -46,7 +46,7 @@ http_interactions:
                     "name": "Dakota Ridge to Sanitas Valley Loop",
                     "type": "Hike",
                     "summary": "A technical ascent with a great view of Boulder, followed by a nice, open downhill pitch.",
-                    "difficulty": "greenBlue",
+                    "difficulty": "blue",
                     "stars": 4,
                     "starVotes": 8,
                     "location": "Boulder, Colorado",
@@ -71,9 +71,9 @@ http_interactions:
                     "name": "Mount Sanitas Loop",
                     "type": "Hike",
                     "summary": "Very popular and scenic loop right from the edge of town.",
-                    "difficulty": "blueBlack",
+                    "difficulty": "black",
                     "stars": 4.2,
-                    "starVotes": 106,
+                    "starVotes": 107,
                     "location": "Boulder, Colorado",
                     "url": "https:\/\/www.hikingproject.com\/trail\/7000000\/mount-sanitas-loop",
                     "imgSqSmall": "https:\/\/cdn-files.apstatic.com\/hike\/7039883_sqsmall_1555092747.jpg",
@@ -88,12 +88,12 @@ http_interactions:
                     "longitude": -105.2977,
                     "latitude": 40.0202,
                     "conditionStatus": "All Clear",
-                    "conditionDetails": "Dry",
-                    "conditionDate": "2020-01-26 11:10:58"
+                    "conditionDetails": "Some Mud",
+                    "conditionDate": "2020-03-10 13:41:47"
                 }
             ],
             "success": 1
         }
     http_version: null
-  recorded_at: Wed, 26 Feb 2020 22:42:07 GMT
+  recorded_at: Mon, 16 Mar 2020 14:28:29 GMT
 recorded_with: VCR 5.1.0

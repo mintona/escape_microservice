@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://maps.googleapis.com/maps/api/place/findplacefromtext/json?fields=geometry/location,formatted_address,name&input=dmqwmd&inputtype=textquery&key=<GOOGLE_API_KEY>
+    uri: https://maps.googleapis.com/maps/api/place/findplacefromtext/json?fields=geometry/location,formatted_address,name&input=RyansHouse&inputtype=textquery&key=<GOOGLE_API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -21,21 +21,23 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 16 Mar 2020 14:28:28 GMT
+      - Mon, 16 Mar 2020 14:26:55 GMT
       Expires:
-      - Mon, 16 Mar 2020 14:33:28 GMT
-      Cache-Control:
-      - public, max-age=300
+      - Mon, 16 Mar 2020 14:31:55 GMT
       Server:
       - scaffolding on HTTPServer2
       Content-Length:
-      - '68'
+      - '236'
       X-Xss-Protection:
       - '0'
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=408
+      - gfet4t7; dur=419
+      Cache-Control:
+      - public, max-age=300
+      Age:
+      - '92'
       Alt-Svc:
       - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
         ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
@@ -44,9 +46,20 @@ http_interactions:
       encoding: ASCII-8BIT
       string: |
         {
-           "candidates" : [],
-           "status" : "ZERO_RESULTS"
+           "candidates" : [
+              {
+                 "formatted_address" : "110 W Muhammad Ali Way, Phoenix, AZ 85013, United States",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 33.4814658,
+                       "lng" : -112.0756437
+                    }
+                 },
+                 "name" : "Ryan House | Hospice of the Valley"
+              }
+           ],
+           "status" : "OK"
         }
     http_version: null
-  recorded_at: Mon, 16 Mar 2020 14:28:28 GMT
+  recorded_at: Mon, 16 Mar 2020 14:28:27 GMT
 recorded_with: VCR 5.1.0
